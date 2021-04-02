@@ -266,7 +266,8 @@
                                 <span class="btn__hover">Register Now </span></a>
                             @if (Route::has('user.login'))
                             @auth
-                            <a class="btn btn-md mbr-mt-2 btn-secondary display-4" href="{{route('user.dashboard')}}">
+                            <a class="btn btn-md mbr-mt-2 btn-secondary display-4"
+                                href="{{route('user.dashboard')}}">
                                 <span class="mbrib-right mbr-iconfont mbr-iconfont-btn"><svg version="1.1"
                                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32"
                                         fill="currentColor">
@@ -494,7 +495,7 @@
                         </div>
                         <div class="card-box">
                             <p class="card-text mbr-fonts-style mbr-pt-1 display-4">
-                                Countries using our services and rapidly still growing with an aim of global outreach.
+                                Countries using our services and rapidly still growing with aim of global outreach.
                             </p>
                         </div>
                     </div>
@@ -711,8 +712,7 @@
                             Honest and Reliable
                         </h3>
                         <p class="mbr-fonts-style card__text display-4">
-                            Earnest Ventures values honesty as a custodian of financial assets and
-                            onformation. We strongly believe in creating a future proof investment strategy that will
+                            Earnest Ventures strongly believes in creating a future proof investment strategy that will
                             last for years to come.
                         </p>
                         <div class="mbr-section-btn">
@@ -760,8 +760,7 @@
                         </h3>
                         <p class="mbr-fonts-style card__text display-4">
 
-                            We offer highly flexible and tailored solutions which is customized to the individual needs
-                            of our
+                            A highly flexible and tailored service which is customized to the individual needs of our
                             customers and clients.
 
                         </p>
@@ -788,7 +787,7 @@
             <div class="mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12 mbr-px-0 align-center">
                 <div class="title__block align-left align-center">
                     <h3 class="mbr-bold title mbr-section-title mbr-fonts-style mbr-black display-2">
-                        Strategic Income growth to the Progress of our cliets
+                        We offer Quality Services to your Progress!
                     </h3>
                     <span class="divider"></span>
                     <h4 class="subtitle mbr-fonts-style display-4">

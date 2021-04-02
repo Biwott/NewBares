@@ -271,7 +271,7 @@
                                         <p class="mbr-fonts-style mbr-regular admin__text display-4">
                                             <div class="mbr-section-btn">
                                                 <a class="btn btn-md mbr-mt-2 btn-success display-4"
-                                                    href="{{url('/').'/blog/'.$post['title']}}">
+                                                    href="{{url('/').'/blog/'.$post['slug']}}">
                                                     <span class="mbrib-right mbr-iconfont mbr-iconfont-btn"><svg
                                                             version="1.1" xmlns="http://www.w3.org/2000/svg" width="16"
                                                             height="16" viewBox="0 0 32 32" fill="currentColor">

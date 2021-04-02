@@ -250,7 +250,7 @@
                         <p class="mbr-text mbr-fonts-style display-4">
                             Earnest Ventures is an online platform developed to give our
                             our clients access to tools that generate income through strategies leveraged by our
-                            premiumly developed system. At Earnest we understand that the thought of investing and doing
+                            premiumly developed system.At Earnest we understand that the thought of investing and doing
                             it successfully can be a daunting task, hence we have made it easy for you to access
                             highly profitable investment avenues.
                         </p>
@@ -266,7 +266,8 @@
                                 <span class="btn__hover">Register Now </span></a>
                             @if (Route::has('user.login'))
                             @auth
-                            <a class="btn btn-md mbr-mt-2 btn-secondary display-4" href="{{route('user.dashboard')}}">
+                            <a class="btn btn-md mbr-mt-2 btn-secondary display-4"
+                                href="{{route(route('user.dashboard'))}}">
                                 <span class="mbrib-right mbr-iconfont mbr-iconfont-btn"><svg version="1.1"
                                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32"
                                         fill="currentColor">
@@ -287,6 +288,14 @@
                                 <span class="btn__hover">Log In</span></a>
                             @endauth
                             @endif
+
+
+
+
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -494,7 +503,7 @@
                         </div>
                         <div class="card-box">
                             <p class="card-text mbr-fonts-style mbr-pt-1 display-4">
-                                Countries using our services and rapidly still growing with an aim of global outreach.
+                                Countries using our services globally and still growing with aim of global outreach.
                             </p>
                         </div>
                     </div>
@@ -585,8 +594,7 @@
                             </h3>
                             <p class="mbr-text mbr-white mbr-fonts-style display-4">
                                 Our platforms makes it easy for those who would like
-                                to trade in crypto currency to easily earn profits through buying and selling at
-                                strategic trade openings.
+                                to trade in crypto currency to easily earn profits through buying and selling.
                             </p>
                         </div>
                     </div>
@@ -621,7 +629,7 @@
                                 Video Ad Promotion
                             </h3>
                             <p class="mbr-text mbr-white mbr-fonts-style display-4">
-                                Earn through watching video ads and get compensated for monetized views.
+                                Earn through watching video ads and get compensted for monetized views.
                             </p>
                         </div>
                     </div>
@@ -657,11 +665,11 @@
 
                         <div class="card-box">
                             <h3 class="card-title mbr-fonts-style mbr-semibold mbr-white display-6">
-                                Blogging
+                                Cryptocurrency
                             </h3>
                             <p class="mbr-text mbr-white mbr-fonts-style display-4">
-                                Get paid for posting premium video content in our website. Approved blogs earn upto Ksh.
-                                300 with the name of the blogger being attributed to the blog.
+                                Get advanced analytics that aid in Buy and sell cryptocurrency taking advantage
+                                of our trading bot algorithms.
                             </p>
                         </div>
                     </div>
@@ -671,7 +679,7 @@
             <div class="text__bottom-block mbr-flex mbr-column mbr-align-center">
                 <p class="text__bottom mbr-white mbr-fonts-style align-center display-4">
                     We boast on the ground presence in all key markets and topnotch reputation in the borders we
-                    operate.<br>We leverage our experience and intelligence to secure the best deals and
+                    operate. <br>We leverage our experience and intelligence to to secure the best deals and
                     partnerships across the world.
                 </p>
             </div>
@@ -711,8 +719,7 @@
                             Honest and Reliable
                         </h3>
                         <p class="mbr-fonts-style card__text display-4">
-                            Earnest Ventures values honesty as a custodian of financial assets and
-                            onformation. We strongly believe in creating a future proof investment strategy that will
+                            Earnest Ventures strongly believes in creating a future proof investment strategy that will
                             last for years to come.
                         </p>
                         <div class="mbr-section-btn">
@@ -760,8 +767,7 @@
                         </h3>
                         <p class="mbr-fonts-style card__text display-4">
 
-                            We offer highly flexible and tailored solutions which is customized to the individual needs
-                            of our
+                            A highly flexible and tailored service which is customized to the individual needs of our
                             customers and clients.
 
                         </p>
@@ -788,7 +794,7 @@
             <div class="mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12 mbr-px-0 align-center">
                 <div class="title__block align-left align-center">
                     <h3 class="mbr-bold title mbr-section-title mbr-fonts-style mbr-black display-2">
-                        Strategic Income growth to the Progress of our cliets
+                        We offer Quality Services to your Progress!
                     </h3>
                     <span class="divider"></span>
                     <h4 class="subtitle mbr-fonts-style display-4">
@@ -1167,7 +1173,7 @@
                     <div class="inner-item rounded__7">
                         <div class="card__title align-center">
                             <p class="title__text mbr-medium mbr-fonts-style display-6">
-                                Basic Pack
+                                Starter Pack
                             </p>
                         </div>
                         <div class="content__wrapper mbr-flex mbr-column mbr-align-center">
